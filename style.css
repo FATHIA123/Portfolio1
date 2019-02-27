@@ -54,10 +54,28 @@ h1 {
   padding-top: 60px;
 
 }
+
+h2{
+    position: absolute;
+    padding: 3px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 10px;
+    font-family: 'Gochi Hand', cursive;
+    color: bisque;
+}
+
 h3 {
     text-align: center;
     font-family: 'Gochi Hand', cursive;
   font-size: 30px;
+}
+
+h4 {
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Gochi Hand', cursive;
+  font-size: 80px;
 }
 
 .btn {
@@ -82,15 +100,7 @@ h3 {
 
     /* padding: 100px; */
 }
-h2{
-    position: absolute;
-    padding: 3px;
-    float: left;
-    margin-left: 2%;
-    margin-top: 10px;
-    font-family: 'Gochi Hand', cursive;
-    color: bisque;
-}
+
 
 span{
     color: #ffffff;
