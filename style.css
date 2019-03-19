@@ -14,18 +14,18 @@
     background: url('./img/GA_02_-15.jpg') no-repeat center;
     background-size: cover;
     background-attachment: fixed;
-    height: 800px;
+    height: 700px;
 }
 
 .about-parallax {
     background: url('./img/ricardo-unsplash.jpg') no-repeat center;
     background-size: cover;
     background-attachment: fixed;
-    height: 800px;
+    height: 100px;
 }
 
 .profolio-parallax{
-    background: url('./img/alexey-lin-27778-unsplash.jpg') no-repeat center;
+    background: url('./img/41-urban-black-hair-art.jpg') no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     height: 800px;
@@ -68,17 +68,18 @@ h2{
 h3 {
     text-align: center;
     font-family: 'Gochi Hand', cursive;
-  font-size: 30px;
+    font-size: 30px;
 }
 
 h4 {
     padding-top: 10px;
     text-align: center;
     font-family: 'Gochi Hand', cursive;
-  font-size: 80px;
+    font-size: 80px;
 }
 
 .btn {
+    display: none;
     border: 1px solid black;
     box-sizing: border-box;
     display: flex;
@@ -97,7 +98,7 @@ h4 {
     vertical-align: middle;
     color: black;
     margin: 0 auto;
-
+ font-size: 30px;
     /* padding: 100px; */
 }
 
@@ -146,3 +147,42 @@ a:hover{
     /* border: 2px solid #4CAF50; */
  
   } 
+.icon{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 200px;
+}
+img {
+    height: 300px;
+    width: 300px;
+}
+
+#Portfolio {
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.div1{
+display: flex;
+flex-direction: column;
+/* justify-content: space-around; */
+}
+
+.div2{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+
+}
+.work{
+
+}
+hr{
+    width: 70%;
+}
+
+#btn {
+    display: none;
+}
