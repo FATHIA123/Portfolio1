@@ -1,15 +1,26 @@
 /* body {
+    margin: 0px;
+    padding: 0px;
+    line-height: 0;
 } */
 .container{
 
     max-width: auto;
     margin: 0 auto;
+    /* background: black; */
     background: #f9f9f9;
     font-size: 24px;
-    padding: 100px;
+    padding: 0px;
     /* margin-bottom: 100px; */
+
 }
 
+#name{
+    padding: 0px;
+    animation: 
+    pulse 3s ease infinite alternate, 
+    nudge 5s linear infinite alternate;
+}
 .parallax{
     background: url('./img/plush-design-studio-740396-unsplash.jpg') no-repeat center;
     background-size: cover;
@@ -142,7 +153,7 @@ a:hover{
 }
 
 #top-home {
-    margin-top: 10px;
+    /* margin-top: 0px; */
     height: 75vh;
     /* background-image: url("./img/brandi-redd-122054-unsplash.jpg") */
 
@@ -207,3 +218,48 @@ hr{
     height: 200px;
     width: 200px;
 }
+
+.logo-text{
+    /* font-size: ; */
+    animation: shake 0.5s; 
+      animation-iteration-count: infinite;;
+
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+  
+  @keyframes pulse {
+    0%, 100% {
+      /* background-color: red; */
+    }
+    50% {
+      /* background-color: orange; */
+    }
+  }
+  
+  @keyframes nudge {
+    0%, 100% {
+      transform: translate(0, 0);
+    }
+    
+    50% {
+      transform: translate(150px, 0);
+    }
+    
+    80% {
+      transform: translate(-150px, 0);
+    }
+  }
