@@ -17,19 +17,19 @@
 
 #name{
     padding: 0px;
-    animation: 
+    /* animation: 
     pulse 3s ease infinite alternate, 
-    nudge 5s linear infinite alternate;
+    nudge 5s linear infinite alternate; */
 }
 .parallax{
-    background: url('./img/plush-design-studio-740396-unsplash.jpg') no-repeat center;
+    background: url('./img/emma-matthews-581990-unsplash.jpg') no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     height: 500px;
 }
 
 .parallax-skills {
-    background: url('./img/plush-design-studio-740396-unsplash.jpg') no-repeat center;
+    background: url('./img/emma-matthews-581990-unsplash.jpg') no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     height: 250px;
@@ -72,6 +72,7 @@ h1 {
   font-size: 80px;
   padding-top: 60px;
   color: #862d59;
+  /* margin-top: 0px; */
 
 }
 
@@ -89,7 +90,8 @@ h2{
 h3 {
     text-align: center;
     /* font-family: 'Gochi Hand', cursive; */
-    font-family: 'Cantata One', serif;
+    /* font-family: 'Cantata One', serif; */
+    font-family: 'Kodchasan', sans-serif;
     font-size: 30px;
 }
 
@@ -97,7 +99,8 @@ h3 {
 h4 {
     padding-top: 10px;
     text-align: center;
-    font-family: 'Cantata One', serif;
+    /* font-family: 'Cantata One', serif; */
+    font-family: 'Kodchasan', sans-serif;
     font-size: 20px;
     /* color: #862d59; */
 
@@ -106,18 +109,19 @@ h4 {
 h5{
     text-align: center;
     /* font-family: 'Gochi Hand', cursive; */
-    font-family: 'Gochi Hand', cursive;
+    /* font-family: 'Gochi Hand', cursive; */
+    font-family: 'Kodchasan', sans-serif;
     font-size: 30px;
 }
 
-.btn {
+#btn {
     display: none;
-    border: 1px solid black;
+    border: 5px solid #862d59;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
     width: 200px;
-    font-family: inherit;
+    /* font-family: inherit; */
     font-weight: 300;
     letter-spacing: 1px;
     margin-left: 0.5em;
@@ -128,10 +132,10 @@ h5{
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.01);
     /* transition: all 0.2s ease 0s; */
     vertical-align: middle;
-    color: black;
+    color:black;
     margin: 0 auto;
  font-size: 30px;
-    /* padding: 100px; */
+ border-radius: 50% 5%;
 }
 
 
@@ -212,7 +216,7 @@ flex-direction: column;
 
 
 #btn {
-    display: none;
+    /* display: none; */
 }
 
 #Contact {
@@ -238,9 +242,12 @@ flex-direction: column;
 }
 
 #Skills {
-    color: #862d59;
+    color: black;
     /* color:#f9f9f9; */
-    height: 300px;
+    /* height: 500px; */
+    margin-top: -50px;
+    /* margin-bottom: -50px; */
+
 }
 
 @keyframes shake {
