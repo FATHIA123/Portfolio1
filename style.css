@@ -17,19 +17,21 @@
 
 #name{
     padding: 0px;
+    font-family: 'Abril Fatface', cursive;
+
     /* animation: 
     pulse 3s ease infinite alternate, 
     nudge 5s linear infinite alternate; */
 }
 .parallax{
-    background: url('./img/emma-matthews-581990-unsplash.jpg') no-repeat center;
+    background: url('./img/trent-erwin-338084-unsplash.jpg') no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     height: 500px;
 }
 
 .parallax-skills {
-    background: url('./img/emma-matthews-581990-unsplash.jpg') no-repeat center;
+    background: url('./img/trent-erwin-338084-unsplash.jpg') no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     height: 250px;
@@ -52,7 +54,7 @@ header{
     width: 100%;
     height: 70px;
     /* background-color: brown; */
-    background-color: #862d59;
+    background-color: #28004d;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -71,8 +73,10 @@ h1 {
   font-family: 'Gochi Hand', cursive;
   font-size: 80px;
   padding-top: 60px;
-  color: #862d59;
+  color: #28004d;
   /* margin-top: 0px; */
+  font-family: 'Abril Fatface', cursive;
+
 
 }
 
@@ -116,7 +120,7 @@ h5{
 
 #btn {
     display: none;
-    border: 5px solid #862d59;
+    border: 5px solid #28004d;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -135,7 +139,7 @@ h5{
     color:black;
     margin: 0 auto;
  font-size: 30px;
- border-radius: 50% 5%;
+ border-radius: 50%;
 }
 
 
@@ -158,7 +162,7 @@ li {
 
 a{
     text-align: center;
-    color: black;
+    color: grey;
     text-decoration: none;
     font-family: 'Gochi Hand', cursive;
     font-size: 1.2vw;
@@ -166,11 +170,12 @@ a{
 }
 
 a:hover{
-    color:grey;
+    color:#d9d9d9;
     transition: -16px;
-    animation: 
+    font-size: 1.8vw;
+    /* animation: 
     pulse 3s ease infinite alternate,
-    nudge 5s linear infinite alternate;
+    nudge 5s linear infinite alternate; */
 }
 
 #top-home {
@@ -231,14 +236,20 @@ flex-direction: column;
 
 .logo-text{
     /* font-size: ; */
-    animation: shake 0.5s; 
-      animation-iteration-count: infinite;;
+    /* animation: shake 0.5s; 
+      animation-iteration-count: infinite;; */
+      color: black;
 
 }
 
+.logo-text:hover{
+    color: black;
+    font-size: 1.5vw;
+}
 .colortop {
     min-height: 10px;
-    background-color: #862d59;
+    background-color: #28004d
+    ;
 }
 
 #Skills {
@@ -247,7 +258,22 @@ flex-direction: column;
     /* height: 500px; */
     margin-top: -50px;
     /* margin-bottom: -50px; */
+    
 
+}
+#arrowdown{
+    height: 50px;
+    width: 50px;
+    float: right;
+}
+
+.displayhide{
+    opacity: 0;
+}
+
+.displayhide:hover {
+
+opacity: 1;    
 }
 
 @keyframes shake {
@@ -287,3 +313,20 @@ flex-direction: column;
       transform: translate(-150px, 0);
     }
   }
+
+
+
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {  }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {  }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {  }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
