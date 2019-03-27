@@ -107,6 +107,7 @@ h4 {
     font-family: 'Kodchasan', sans-serif;
     font-size: 20px;
     /* color: #862d59; */
+    color: black;
 
 }
 
@@ -133,10 +134,9 @@ h5{
     padding: 0.5em 0.6em;
     text-align: center;
     /* text-decoration: none; */
-    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.01);
+    /* text-shadow: 0 1px 0 rgba(0, 0, 0, 0.01); */
     /* transition: all 0.2s ease 0s; */
     vertical-align: middle;
-    color:black;
     margin: 0 auto;
  font-size: 30px;
  border-radius: 50%;
